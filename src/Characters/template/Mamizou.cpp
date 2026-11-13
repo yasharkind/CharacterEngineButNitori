@@ -814,8 +814,10 @@ bool Mamizou::_useSkill(bool input, unsigned char id, unsigned short action)
 		return false;
 	if (this->gameData.sequenceData->actionLock > this->getMoveLock(action) && this->skillCancelsUsed[id % 4])
 		return false;
-	this->skillCancelCount++;
-	this->skillCancelsUsed[id % 4] = true;
+	if (!this->skillCancelsUsed[id % 4]) {
+		this->skillCancelCount++;
+		this->skillCancelsUsed[id % 4] = true;
+	}
 	this->renderInfos.zRotation = 0.0;
 	this->eventSkillUse();
 	this->useSkill(action, this->gameData.sequenceData->moveLock);

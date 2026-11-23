@@ -1877,7 +1877,7 @@ void Mamizou::update()
 			this->setAction(SokuLib::ACTION_IDLE);
 		if (this->frameState.sequenceId == 1) {
 			if (this->frameState.poseId == 0 && this->frameState.currentFrame == 0) {
-				this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+				this->consumeSpirit(200, 120);
 				this->addCardMeter(70);
 			}
 			if (this->frameState.currentFrame == 20)
@@ -1942,7 +1942,7 @@ void Mamizou::update()
 		if (this->frameState.sequenceId == 1 && this->frameState.currentFrame >= 10 - this->effectiveSkillLevel[1] * 2) {
 			this->setAction(SokuLib::ACTION_IDLE);
 			this->_transform();
-			this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+			this->consumeSpirit(200, 120);
 			this->addCardMeter(70);
 		}
 		break;
@@ -1981,7 +1981,7 @@ void Mamizou::update()
 		} else if (this->frameState.sequenceId == 1) {
 			if (this->frameState.currentFrame == 0) {
 				this->addCardMeter(70);
-				this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+				this->consumeSpirit(200, 120);
 				if (this->frameState.actionId % 2 == 0) {
 					this->speed.x = 12.5;
 					this->speed.y = 15;
@@ -2021,7 +2021,7 @@ void Mamizou::update()
 		if (this->advanceFrame())
 			this->setAction(SokuLib::ACTION_IDLE);
 		if (this->frameState.poseId == 1 && this->frameState.poseFrame == 0) {
-			this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+			this->consumeSpirit(200, 120);
 			this->addCardMeter(70);
 			this->collisionType = COLLISION_TYPE_HIT;
 			params[2] = this->frameState.actionId - ACTION_d236b;
@@ -2057,7 +2057,7 @@ void Mamizou::update()
 		if (this->frameState.sequenceId < 2) {
 			this->collisionType = COLLISION_TYPE_HIT;
 			if (this->frameState.currentFrame == 0) {
-				this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+				this->consumeSpirit(200, 120);
 				this->addCardMeter(70);
 			}
 			if (this->speed.x + speedInc < speedBase + speedMul * this->effectiveSkillLevel[4])
@@ -2066,7 +2066,7 @@ void Mamizou::update()
 				this->speed.x = speedBase + speedMul * this->effectiveSkillLevel[4];
 			if ((this->gameData.opponent->position.x - this->position.x) * this->direction < distBase + distMul * this->effectiveSkillLevel[4]) {
 				if (this->frameState.sequenceId == 0) {
-					this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+					this->consumeSpirit(200, 120);
 					this->addCardMeter(70);
 				}
 				this->nextSequence();
@@ -2094,7 +2094,7 @@ void Mamizou::update()
 		if (this->frameState.sequenceId == 1 && this->frameState.currentFrame >= 20 - this->effectiveSkillLevel[5] * 4) {
 			this->setAction(SokuLib::ACTION_IDLE);
 			this->_transform();
-			this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+			this->consumeSpirit(200, 120);
 			this->addCardMeter(70);
 		}
 		break;
@@ -2104,7 +2104,7 @@ void Mamizou::update()
 		if (this->frameState.sequenceId == 1 && this->frameState.currentFrame >= 20 - this->effectiveSkillLevel[5] * 4) {
 			this->setAction(SokuLib::ACTION_FALLING);
 			this->_transform();
-			this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+			this->consumeSpirit(200, 120);
 			this->addCardMeter(70);
 		}
 		break;
@@ -2148,7 +2148,7 @@ void Mamizou::update()
 		}
 		if (this->frameState.sequenceId == 1) {
 			if (this->frameState.currentFrame == 0) {
-				this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+				this->consumeSpirit(200, 120);
 				this->addCardMeter(70);
 				this->createObject(821, this->position.x - 30 * this->direction, this->position.y, this->direction, -1);
 				if (this->frameState.actionId == ACTION_a1_214c)
@@ -2181,7 +2181,7 @@ void Mamizou::update()
 				this->createObject(826, this->position.x - 40 * this->direction, this->position.y + 180, this->direction, -1);
 		} else if (this->frameState.sequenceId == 1) {
 			if (this->frameState.currentFrame == 0) {
-				this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+				this->consumeSpirit(200, 120);
 				this->addCardMeter(70);
 				this->collisionType = COLLISION_TYPE_HIT;
 			}
@@ -2204,7 +2204,7 @@ void Mamizou::update()
 				this->createObject(826, this->position.x - 40 * this->direction, this->position.y - 180, this->direction, -1);
 		} else if (this->frameState.sequenceId == 1) {
 			if (this->frameState.currentFrame == 0) {
-				this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+				this->consumeSpirit(200, 120);
 				this->addCardMeter(70);
 				this->collisionType = COLLISION_TYPE_HIT;
 			}
@@ -2286,7 +2286,7 @@ void Mamizou::update()
 				this->_transformStacks--;
 				this->setAction(SokuLib::ACTION_IDLE);
 				this->_transform();
-				this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+				this->consumeSpirit(200, 120);
 				this->addCardMeter(70);
 			}
 		}
@@ -2297,7 +2297,7 @@ void Mamizou::update()
 			this->setAction(SokuLib::ACTION_IDLE);
 		if (this->frameState.sequenceId == 1) {
 			if (this->frameState.currentFrame == 0) {
-				this->consumeSpirit(200 / (this->skillCancelCount + 1), 120);
+				this->consumeSpirit(200, 120);
 				this->addCardMeter(70);
 			}
 			if (this->frameState.currentFrame >= 20 && !this->inputData.keyInput.c) {
@@ -3046,8 +3046,10 @@ bool Mamizou::_useSkill(bool input, unsigned char id, unsigned short action)
 			return false;
 		if (this->gameData.sequenceData->actionLock > this->getMoveLock(action) && this->skillCancelsUsed[id % 4])
 			return false;
-		this->skillCancelCount++;
-		this->skillCancelsUsed[id % 4] = true;
+		if (!this->skillCancelsUsed[id % 4]) {
+			this->skillCancelCount++;
+			this->skillCancelsUsed[id % 4] = true;
+		}
 		this->renderInfos.zRotation = 0.0;
 		this->eventSkillUse();
 		this->useSkill(action, this->gameData.sequenceData->moveLock);

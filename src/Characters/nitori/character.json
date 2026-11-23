@@ -1,0 +1,12 @@
+{
+    "internal_name": "nitori",
+    "index": 36,
+    "index_named_assets": true,
+    "character_dll": "Nitori.dll",
+    "data": "nitori.dat",
+    "skill_sprite_sheet": "sheet_skill.png",
+    "short_name": "Nitori",
+    "full_name": "Nitori Kawashiro",
+    "skill_inputs": [623, 236, 214, 421],
+    "enabled": true
+}

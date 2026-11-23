@@ -1,12 +1,12 @@
 {
-    "internal_name": "mamizou",
-    "index": 36,
+    "internal_name": "nitori",
+    "index": 37,
     "index_named_assets": true,
-    "character_dll": "Mamizou.dll",
-    "data": "mamizou.dat",
+    "character_dll": "Nitori.dll",
+    "data": "nitori.dat",
     "skill_sprite_sheet": "sheet_skill.png",
-    "short_name": "Mamizou",
-    "full_name": "Mamizou Futatsuiwa",
+    "short_name": "Nitori",
+    "full_name": "Nitori Kawashiro",
     "skill_inputs": [623, 236, 214, 421],
-    "enabled": false
+    "enabled": true
 }

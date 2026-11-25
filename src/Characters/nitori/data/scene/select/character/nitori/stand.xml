@@ -9,6 +9,8 @@
 		<frame image="nitori005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="100" texheight="100" xoffset="50" yoffset="100" duration="8" rendergroup="1"/>
 		<frame image="nitori006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="100" texheight="100" xoffset="50" yoffset="100" duration="8" rendergroup="1"/>
 		<frame image="nitori007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="100" texheight="100" xoffset="50" yoffset="100" duration="8" rendergroup="1"/>
+		<frame image="nitori008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="100" texheight="100" xoffset="50" yoffset="100" duration="8" rendergroup="1"/>
+		<frame image="nitori009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="100" texheight="100" xoffset="50" yoffset="100" duration="8" rendergroup="1"/>
 	</animation>
 	<animation id="1" index="0" loop="0">
 		<frame image="nitoriPreLoop000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="120" texheight="240" xoffset="44" yoffset="220" duration="1" rendergroup="1"/>

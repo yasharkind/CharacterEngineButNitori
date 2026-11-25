@@ -8,10 +8,10 @@
 				<cancellable/>
 			</traits>
 			<collision>
-				<box left="-20" up="-183" right="20" down="-1"/>
+				<box left="-20" up="-163" right="20" down="-1"/>
 			</collision>
 			<hit>
-				<box left="-32" up="-185" right="26" down="-1"/>
+				<box left="-28" up="-165" right="30" down="1"/>
 			</hit>
 			<effect xpivot="0" ypivot="0" xpositionextra="0" ypositionextra="0" xposition="0" yposition="0" unknown02="0" xspeed="0" yspeed="0"/>
 		</frame>
@@ -22,10 +22,10 @@
 				<cancellable/>
 			</traits>
 			<collision>
-				<box left="-20" up="-183" right="20" down="-1"/>
+				<box left="-20" up="-163" right="20" down="-1"/>
 			</collision>
 			<hit>
-				<box left="-32" up="-185" right="26" down="-1"/>
+				<box left="-28" up="-165" right="30" down="1"/>
 			</hit>
 			<effect xpivot="0" ypivot="0" xpositionextra="0" ypositionextra="0" xposition="0" yposition="0" unknown02="0" xspeed="0" yspeed="0"/>
 		</frame>
@@ -36,10 +36,10 @@
 				<cancellable/>
 			</traits>
 			<collision>
-				<box left="-20" up="-183" right="20" down="-1"/>
+				<box left="-20" up="-163" right="20" down="-1"/>
 			</collision>
 			<hit>
-				<box left="-32" up="-185" right="26" down="-1"/>
+				<box left="-28" up="-165" right="30" down="1"/>
 			</hit>
 			<effect xpivot="0" ypivot="0" xpositionextra="0" ypositionextra="0" xposition="0" yposition="0" unknown02="0" xspeed="0" yspeed="0"/>
 		</frame>
@@ -50,10 +50,10 @@
 				<cancellable/>
 			</traits>
 			<collision>
-				<box left="-20" up="-183" right="20" down="-1"/>
+				<box left="-20" up="-163" right="20" down="-1"/>
 			</collision>
 			<hit>
-				<box left="-32" up="-185" right="26" down="-1"/>
+				<box left="-28" up="-165" right="30" down="1"/>
 			</hit>
 			<effect xpivot="0" ypivot="0" xpositionextra="0" ypositionextra="0" xposition="0" yposition="0" unknown02="0" xspeed="0" yspeed="0"/>
 		</frame>
@@ -64,10 +64,10 @@
 				<cancellable/>
 			</traits>
 			<collision>
-				<box left="-20" up="-183" right="20" down="-1"/>
+				<box left="-20" up="-163" right="20" down="-1"/>
 			</collision>
 			<hit>
-				<box left="-32" up="-185" right="26" down="-1"/>
+				<box left="-28" up="-165" right="30" down="1"/>
 			</hit>
 			<effect xpivot="0" ypivot="0" xpositionextra="0" ypositionextra="0" xposition="0" yposition="0" unknown02="0" xspeed="0" yspeed="0"/>
 		</frame>
@@ -78,10 +78,10 @@
 				<cancellable/>
 			</traits>
 			<collision>
-				<box left="-20" up="-183" right="20" down="-1"/>
+				<box left="-20" up="-163" right="20" down="-1"/>
 			</collision>
 			<hit>
-				<box left="-32" up="-185" right="26" down="-1"/>
+				<box left="-28" up="-165" right="30" down="1"/>
 			</hit>
 			<effect xpivot="0" ypivot="0" xpositionextra="0" ypositionextra="0" xposition="0" yposition="0" unknown02="0" xspeed="0" yspeed="0"/>
 		</frame>
@@ -92,10 +92,10 @@
 				<cancellable/>
 			</traits>
 			<collision>
-				<box left="-20" up="-183" right="20" down="-1"/>
+				<box left="-20" up="-163" right="20" down="-1"/>
 			</collision>
 			<hit>
-				<box left="-32" up="-185" right="26" down="-1"/>
+				<box left="-28" up="-165" right="30" down="1"/>
 			</hit>
 			<effect xpivot="0" ypivot="0" xpositionextra="0" ypositionextra="0" xposition="0" yposition="0" unknown02="0" xspeed="0" yspeed="0"/>
 		</frame>
@@ -106,10 +106,38 @@
 				<cancellable/>
 			</traits>
 			<collision>
-				<box left="-20" up="-183" right="20" down="-1"/>
+				<box left="-20" up="-163" right="20" down="-1"/>
 			</collision>
 			<hit>
-				<box left="-32" up="-185" right="26" down="-1"/>
+				<box left="-28" up="-165" right="30" down="1"/>
+			</hit>
+			<effect xpivot="0" ypivot="0" xpositionextra="0" ypositionextra="0" xposition="0" yposition="0" unknown02="0" xspeed="0" yspeed="0"/>
+		</frame>
+		<frame image="stand008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="100" texheight="100" xoffset="100" yoffset="185" duration="8" rendergroup="0">
+			<traits damage="0" proration="0" chipdamage="0" spiritdamage="0" untech="0" power="0" limit="0" onhitplayerstun="0" onhitenemystun="0" onblockplayerstun="0" onblockenemystun="0" onhitcardgain="0" onblockcardgain="0" onairhitsetsequence="0" ongroundhitsetsequence="0" xspeed="0" yspeed="0" onhitsfx="0" onhiteffect="0" attacklevel="0">
+				<standing/>
+				<guardcancel/>
+				<cancellable/>
+			</traits>
+			<collision>
+				<box left="-20" up="-163" right="20" down="-1"/>
+			</collision>
+			<hit>
+				<box left="-28" up="-165" right="30" down="1"/>
+			</hit>
+			<effect xpivot="0" ypivot="0" xpositionextra="0" ypositionextra="0" xposition="0" yposition="0" unknown02="0" xspeed="0" yspeed="0"/>
+		</frame>
+		<frame image="stand009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="100" texheight="100" xoffset="100" yoffset="185" duration="8" rendergroup="0">
+			<traits damage="0" proration="0" chipdamage="0" spiritdamage="0" untech="0" power="0" limit="0" onhitplayerstun="0" onhitenemystun="0" onblockplayerstun="0" onblockenemystun="0" onhitcardgain="0" onblockcardgain="0" onairhitsetsequence="0" ongroundhitsetsequence="0" xspeed="0" yspeed="0" onhitsfx="0" onhiteffect="0" attacklevel="0">
+				<standing/>
+				<guardcancel/>
+				<cancellable/>
+			</traits>
+			<collision>
+				<box left="-20" up="-163" right="20" down="-1"/>
+			</collision>
+			<hit>
+				<box left="-28" up="-165" right="30" down="1"/>
 			</hit>
 			<effect xpivot="0" ypivot="0" xpositionextra="0" ypositionextra="0" xposition="0" yposition="0" unknown02="0" xspeed="0" yspeed="0"/>
 		</frame>
